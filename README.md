@@ -1,18 +1,24 @@
-Simulación de una red informática mediante Modelos Ocultos de Markov
+** Simulación de una red informática mediante Modelos Ocultos de Markov **
+
 Manuela Tangarife Zapata
+
 Descripción
+
 Este proyecto consiste en la simulación de una red informática mediante Modelos Ocultos de Markov (HMM), utilizando Python. Se desarrolló de manera individual como parte de una actividad académica.
 
 La simulación representa diferentes estados de funcionamiento de una red y utiliza indicadores observables, como la latencia, la pérdida de paquetes y la disponibilidad, para analizar su comportamiento.
 
 Se implementó el algoritmo de Viterbi para estimar la secuencia de estados ocultos a partir de las observaciones generadas durante la simulación.
+
 Objetivos
 - Aplicar los Modelos Ocultos de Markov a la representación de una red informática.
 - Simular diferentes condiciones de funcionamiento de una red.
 - Analizar la relación entre los estados ocultos y los indicadores observables.
 - Implementar el algoritmo de Viterbi para estimar los estados de la red.
 - Comparar los resultados obtenidos en diferentes escenarios mediante métricas de evaluación.
+
 Metodología
+
 Se definieron tres estados ocultos para representar las condiciones de funcionamiento de la red:
 - Normal: funcionamiento adecuado de la red.
 - Degradado: presenta dificultades en su rendimiento.
